@@ -14,12 +14,8 @@ body{
 #container{
 	width:100%;
 }
-#m_container1,#m_container2,#m_container3{
-	position:relative;
-}
 #meal1,#meal2,#meal3{
 	float:left;
-	position:relative;
 	border:1px solid black;
 	background-color:gray;
 	margin-left:auto;
@@ -32,9 +28,7 @@ body{
 	padding:10px;
 }
 #div1,#div2,#div3{
-	position:absolute;
-	top:0px;
-	right:0px;
+	float:right;
 	border:1px solid black;
 	font-size: 125%;
 	width:50%;
